@@ -1,3 +1,9 @@
+/*
+	Basic vehicle class abstracting vehicle information
+	Fields: Name of the vehicle
+	Methods:
+		getName() : String -> returns the name of the vehicle
+*/
 public class Vehicle {
 	private String name;
 

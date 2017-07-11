@@ -1,5 +1,12 @@
 /*
 	Class for maintaining the state of the parking lot.
+	Fields: state of lot, available slots to park
+	Methods:
+		checkState(ParkingSpace arraylist, totalSports) : void -> Updates the state and available slots of the lot
+		isFull() : boolean -> Returns true if lot is full
+		isEmpty() : boolean -> Returns true if lot is empty
+		isNormal() : boolean -> Return true if neither full nor empty
+		availableSlots() : int -> Returns the number of slots still available to avail for parking.
 */
 import java.util.*;
 

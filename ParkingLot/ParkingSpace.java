@@ -1,6 +1,13 @@
 /*
 	Class for each parking space
 	Every parking space has an entrance for it to enter
+	Fields: entrance distance, vehicle parked, vacant state
+	Methods:
+		parkVehicle(Vehicle) : void -> Parks the vehicle with the given vehicle object
+		getParkedVehicle() : Vehicle -> Returns the parked vehicle object
+		unparkVehicle() : void -> Unparks the vehicle parked in the space
+		getDistance() : int -> Returns the distance of space from entrance
+		available() : boolean -> Returns if the space is vacant or parked.
 */
 public class ParkingSpace {
 	private int entrance;
